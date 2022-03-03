@@ -7,11 +7,14 @@ html(lang="en")
         title Nicole + Jason
     body 
         .nav_bar 
-            li.nav_item: a(href="http://amazon.com") 
+            li.nav_item: a(href="http://amazon.com")
+                != h.icon('ring')
                 span Registry 
             li.nav_item: a(href="/map") 
+                != h.icon('location')
                 span Address 
             li.nav_item: a(href="/photots") 
+                != h.icon('photo')
                 span Photos 
             
         .div 
