@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"name": "Nicole Wedding",
+		"path": "."
+	},
+	{
+		"path": "../Portfolio/handlers"
+	}
+],
+  "settings": {}
+}

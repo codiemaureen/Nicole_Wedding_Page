@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.nav_bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  justify-self: center;
+  align-items: center;
+  height: 10vh;
+  color: white;
+  background-color: black;
+}
+
+.div {
+  margin-top: 50px;
+  color: black;
+}
+p {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+img.homepage {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  border: 10px solid black;
+}
