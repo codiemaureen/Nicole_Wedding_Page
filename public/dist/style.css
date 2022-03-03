@@ -11,6 +11,7 @@ body {
   height: 10vh;
   color: white;
   background-color: black;
+  box-shadow: 0px 5px lightgray;
 }
 
 .div {
@@ -21,12 +22,16 @@ p {
   display: flex;
   justify-content: center;
   margin: 50px;
+  font-size: 60px;
+  text-shadow: 2px 3px lightgray;
 }
 
-img.homepage {
-  margin: 0;
+img {
+  margin: 35px;
   display: flex;
   justify-content: center;
+  justify-self: center;
   width: 90vw;
   border: 10px solid black;
+  box-shadow: 2px 2px lightgray;
 }
