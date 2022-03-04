@@ -58,12 +58,14 @@ a:active {
   margin-top: 50px;
   color: black;
 }
+
 p {
   display: flex;
   justify-content: center;
-  margin: 50px;
+  margin: 5px;
   font-size: 60px;
-  text-shadow: 2px 3px lightgray;
+  color: lightgray;
+  text-shadow: 2px 3px grey;
 }
 
 img {
@@ -102,4 +104,8 @@ h2 {
   border-bottom: 150px solid black;
   border-radius: 2%;
   background: url("../images/flower.jpg") center center no-repeat;
+}
+
+.registered {
+  list-style: none;
 }

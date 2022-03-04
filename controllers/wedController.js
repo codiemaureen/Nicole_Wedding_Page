@@ -9,3 +9,7 @@ exports.addresses = (req, res) => {
 exports.photos = (req, res) => {
     res.render('photos', {title: 'Photos'});
 };
+
+exports.registry = (req, res) => {
+    res.render('registry', {title: 'Registry'});
+};
