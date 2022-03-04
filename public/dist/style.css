@@ -16,7 +16,9 @@ body {
   display: flex;
   justify-content: center;
   justify-self: center;
+  align-self: center;
   align-items: center;
+  width: 120px;
   border: 2px solid white;
 }
 
@@ -92,4 +94,12 @@ h2 {
   max-width: 100;
   border: 10px solid black;
   background: url("/images/weddingtable.jpg") center center no-repeat;
+}
+
+.photo_container {
+  height: 60vh;
+  border: 10px solid black;
+  border-bottom: 150px solid black;
+  border-radius: 2%;
+  background: url("../images/flower.jpg") center center no-repeat;
 }

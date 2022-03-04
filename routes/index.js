@@ -4,6 +4,7 @@ const wedController = require('../controllers/wedController');
 
 router.get('/', wedController.homePage);
 router.get('/addresses', wedController.addresses);
+router.get('/photos', wedController.photos);
 
 
 module.exports = router;
