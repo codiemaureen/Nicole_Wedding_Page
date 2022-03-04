@@ -7,17 +7,19 @@ html(lang="en")
         title Nicole + Jason
     body 
         .nav_bar 
+
+            li.nav_item: a(href="/")
+                != h.icon('ring')
+                span Home 
             li.nav_item: a(href="http://amazon.com")
                 != h.icon('ring')
                 span Registry 
-            li.nav_item: a(href="/map") 
+            li.nav_item: a(href="/addresses") 
                 != h.icon('location')
                 span Address 
             li.nav_item: a(href="/photots") 
                 != h.icon('photo')
                 span Photos 
-            
-        .div 
-            p Nicole + Jason
-            .div.homepage 
-                img(src="/images/flower.jpg", alt="flower", width="550")
+        
+        .content 
+            block content

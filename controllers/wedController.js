@@ -1,3 +1,7 @@
 exports.homePage = (req, res) => {
-    res.render('layout', {title: 'Nicole + Jason'});
+    res.render('homepage', {title: 'Nicole + Jason'});
 };
+
+exports.addresses = (req, res) => {
+    res.render('addresses', {title: 'Addresses'});
+}
