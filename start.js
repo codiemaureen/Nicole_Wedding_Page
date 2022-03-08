@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // import environmental variables from our variables.env file
-require('dotenv').config({ path: '.env' });
+require('dotenv').config({ path: 'variables.env' });
 
 // Connect to our Database and handle any bad connections
 // const connectDB = require('./db/connect');

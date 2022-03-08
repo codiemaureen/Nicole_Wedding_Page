@@ -2222,6 +2222,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
+var mapOptions = {
+  center: {
+    lat: 43.2,
+    lng: -79.8
+  },
+  zoom: 10
+};
 
 function loadPlaces(map) {
   var lat = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 43.2;
@@ -2231,7 +2238,8 @@ function loadPlaces(map) {
 ;
 
 function makeMap(mapDiv) {
-  console.log(mapDiv);
+  if (!mapDiv) return;
+  var map = new google.maps.Map(mapDiv, mapOptions);
 }
 
 ;
