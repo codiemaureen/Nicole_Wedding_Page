@@ -1,35 +1,24 @@
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./public/sass/style.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************/
-div {
-  margin-top: 50px;
-  color: black; }
-
 .nav_bar {
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
-  height: 20vh;
+  width: 100%;
   color: white;
   background-color: black;
   box-shadow: 0px 5px lightgray; }
 
 .nav_item {
   display: flex;
+  flex: auto;
   justify-content: center;
-  justify-self: center;
-  align-self: end;
-  align-content: center;
-  width: 120px;
-  border: 2px solid white; }
+  justify-items: center; }
 
 svg {
-  width: 25px;
-  height: 25px;
-  border: 2px solid white;
   display: flex;
-  justify-content: center;
-  justify-self: center; }
+  margin: 5px 20px 20px 5px;
+  width: 25px; }
 
 svg:not(:root) {
   overflow: hidden;
@@ -49,50 +38,51 @@ a:hover {
 a:active {
   text-decoration: none; }
 
-p {
+h2 {
   display: flex;
   justify-content: center;
-  margin: 5px;
+  justify-items: center;
+  margin: 40px;
   font-size: 60px;
   color: lightgray;
   text-shadow: 2px 3px grey; }
 
-img {
-  margin: 35px;
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-  width: 90vw;
-  border: 10px solid black;
-  box-shadow: 2px 2px lightgray; }
-
-h2 {
-  display: flex;
-  justify-content: center;
-  text-shadow: 2px 2px lightgray;
-  font-size: 2rem;
-  border: 2px solid black; }
-
 .map {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-self: center;
   align-self: center;
-  height: 400px;
-  max-width: 100;
-  border: 10px solid black;
-  background: url(a98dfc4a3a933e1c07ca.jpg) center center no-repeat; }
+  border: 10px solid black; }
+
+img {
+  width: 100%; }
 
 .photo_container {
+  display: flex;
+  margin: 10px;
   height: 60vh;
-  border: 10px solid black;
-  border-bottom: 150px solid black;
-  border-radius: 2%;
-  background: url(b3d17d30e14cdfe1b96f.jpg) center center no-repeat; }
+  border: 10px solid grey; }
+
+img {
+  width: 100%; }
+
+.registries {
+  display: flex;
+  justify-content: center; }
 
 .registered {
-  list-style: none; }
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+
+.store {
+  display: flex;
+  border: 5px solid black;
+  color: black;
+  font-size: 20px; }
+
+.img {
+  display: flex;
+  border: 10px solid black;
+  width: 30vw; }
 
 
 /*# sourceMappingURL=style.css.map*/

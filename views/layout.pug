@@ -3,23 +3,23 @@ html(lang="en")
     head
         title= `${h.siteName} || ${title}`
         link(rel="stylesheet", href="/dist/style.css")
+        link(rel="shortcut icon" type="image/png" href="/images/icons/ring.svg")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Nicole + Jason
     body 
         .nav_bar 
-
             li.nav_item: a(href="/")
                 != h.icon('ring')
-                span Home 
+                p.nav_title Home 
             li.nav_item: a(href="/registry")
-                != h.icon('ring')
-                span Registry 
+                != h.icon('gift')
+                p.nav_title Registry 
             li.nav_item: a(href="/addresses") 
                 != h.icon('location')
-                span Address 
+                p.nav_title Address 
             li.nav_item: a(href="/photos") 
                 != h.icon('photo')
-                span Photos 
+                p.nav_title Photos 
         
         .content 
             block content

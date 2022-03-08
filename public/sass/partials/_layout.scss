@@ -1,49 +1,9 @@
-p {
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-  font-size: 60px;
-  color: lightgray;
-  text-shadow: 2px 3px grey;
-}
-
-img {
-  margin: 35px;
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-  width: 90vw;
-  border: 10px solid black;
-  box-shadow: 2px 2px lightgray;
-}
-
 h2 {
   display: flex;
   justify-content: center;
-  text-shadow: 2px 2px lightgray;
-  font-size: 2rem;
-  border: 2px solid black;
-}
-.map {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-self: center;
-  align-self: center;
-  height: 400px;
-  max-width: 100;
-  border: 10px solid black;
-  background: url("../../images/weddingtable.jpg") center center no-repeat;
-}
-
-.photo_container {
-  height: 60vh;
-  border: 10px solid black;
-  border-bottom: 150px solid black;
-  border-radius: 2%;
-  background: url("../../images/flower.jpg") center center no-repeat;
-}
-
-.registered {
-  list-style: none;
+  justify-items: center;
+  margin: 40px;
+  font-size: 60px;
+  color: lightgray;
+  text-shadow: 2px 3px grey;
 }
