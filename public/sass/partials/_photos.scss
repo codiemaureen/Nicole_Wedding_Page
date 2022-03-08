@@ -2,7 +2,8 @@
   display: flex;
   margin: 10px;
   height: 60vh;
-  border: 10px solid grey;
+  border: 2px solid lightgray;
+  box-shadow: $shadow;
 }
 img {
   width: 100%;
