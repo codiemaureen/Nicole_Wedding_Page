@@ -4,6 +4,14 @@ h2 {
   justify-items: center;
   margin: 40px;
   font-size: 60px;
-  color: lightgray;
-  text-shadow: 2px 3px grey;
+  color: black;
+  text-shadow: $shadow;
+}
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+  @media all and (max-width: 900px) {
+    padding: 2rem;
+  }
 }

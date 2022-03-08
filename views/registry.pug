@@ -4,10 +4,13 @@ block content
     h2 Our Registries
     .registries
         li.registered: a(href="http://amazon.com") 
+            != h.icon('amazon')
             p.store Amazon
         li.registered: a(href="http://target.com") 
+            != h.icon('target')
             p.store Target
-        li.registered: a(href="https://www.bedbathandbeyond.com/") 
+        li.registered: a(href="https://www.bedbathandbeyond.com/")
+            != h.icon('home') 
             p.store Bed, Bath, and Beyond
     .img
         img(src="./images/gift.jpg", alt="gift" class="gift")

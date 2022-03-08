@@ -1,7 +1,11 @@
 extends layout 
 
 block content
-    h2 Celebrate With Us Here
-    .map
-        img(src="/images/weddingtable.jpg", alt="table")
+    .inner 
+        h2 Celebrate With Us Here
+        .map
+            .autocomplete
+                input.autocomplete__input(type="text" placeholder="Join us at..." name="geolocate")
+            #map
+                p Loading Map....
 
