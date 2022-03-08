@@ -2231,7 +2231,7 @@ function loadPlaces(map) {
 ;
 
 function makeMap(mapDiv) {
-  if (!makeDiv) return;
+  console.log(mapDiv);
 }
 
 ;
@@ -2330,13 +2330,14 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/style.scss */ "./public/sass/style.scss");
 /* harmony import */ var _modules_bling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/bling */ "./public/javascripts/modules/bling.js");
-/* harmony import */ var _modules_map__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/map */ "./public/javascripts/modules/map.js");
-/* harmony import */ var _modules_autocomplete__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/autocomplete */ "./public/javascripts/modules/autocomplete.js");
+/* harmony import */ var _modules_autocomplete__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/autocomplete */ "./public/javascripts/modules/autocomplete.js");
+/* harmony import */ var _modules_map__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/map */ "./public/javascripts/modules/map.js");
 
 
 
 
-(0,_modules_map__WEBPACK_IMPORTED_MODULE_2__["default"])((0,_modules_bling__WEBPACK_IMPORTED_MODULE_1__.$)('#map'));
+(0,_modules_autocomplete__WEBPACK_IMPORTED_MODULE_2__["default"])((0,_modules_bling__WEBPACK_IMPORTED_MODULE_1__.$)('#address'), (0,_modules_bling__WEBPACK_IMPORTED_MODULE_1__.$)('#lat'), (0,_modules_bling__WEBPACK_IMPORTED_MODULE_1__.$)('#lng'));
+(0,_modules_map__WEBPACK_IMPORTED_MODULE_3__["default"])((0,_modules_bling__WEBPACK_IMPORTED_MODULE_1__.$)('#map'));
 }();
 /******/ })()
 ;

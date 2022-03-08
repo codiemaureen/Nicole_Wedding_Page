@@ -1,7 +1,9 @@
 import '../sass/style.scss';
 
 import {$, $$} from './modules/bling'
-import makeMap from './modules/map';
 import autocomplete from './modules/autocomplete';
+import makeMap from './modules/map';
 
-makeMap( $('#map'));
+autocomplete( $('#address'), $('#lat'), $('#lng'));
+
+makeMap( $('#map') );
