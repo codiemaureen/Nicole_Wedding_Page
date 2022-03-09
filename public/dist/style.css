@@ -1,16 +1,24 @@
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./public/sass/style.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************/
+html {
+  margin: 0; }
+
+.wrapper {
+  margin: 0;
+  background: black;
+  color: white;
+  height: 20vh; }
+
 .nav_bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  width: 100vw;
   color: white;
   background-color: black;
-  -webkit-box-shadow: 0px 5px lightgray;
-          box-shadow: 0px 5px lightgray; }
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
 .nav_item {
   display: -webkit-box;
@@ -51,7 +59,10 @@ a:active {
   text-decoration: none; }
 
 body {
-  background: url(e9cb269cdc8a9a93a9c4.jpg) center top no-repeat; }
+  margin: 0;
+  background: url(e9cb269cdc8a9a93a9c4.jpg) no-repeat;
+  background-size: cover;
+  display: block; }
 
 h2 {
   display: -webkit-box;
@@ -63,7 +74,9 @@ h2 {
   justify-items: center;
   margin: 40px;
   font-size: 60px;
-  color: black;
+  background: -webkit-linear-gradient(left bottom, #b6796d 40%, #d8bab6 50%, #b6796d 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
 .inner {
