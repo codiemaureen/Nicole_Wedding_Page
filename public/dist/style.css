@@ -1,13 +1,16 @@
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./public/sass/style.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************/
-html {
-  margin: 0; }
-
 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
   margin: 0;
   background: black;
-  color: white;
   height: 20vh; }
 
 .nav_bar {
@@ -38,11 +41,11 @@ svg {
   display: flex;
   margin: 0 auto;
   padding: 10px;
-  width: 25px; }
+  width: 30px; }
 
 svg:not(:root) {
   overflow: hidden;
-  fill: lightgray; }
+  fill: #b6796d; }
 
 a:link {
   color: white;
@@ -61,8 +64,8 @@ a:active {
 body {
   margin: 0;
   background: url(e9cb269cdc8a9a93a9c4.jpg) no-repeat;
-  background-size: cover;
-  display: block; }
+  display: block;
+  background-size: cover; }
 
 h2 {
   display: -webkit-box;
@@ -95,8 +98,8 @@ h2 {
           justify-content: center;
   max-width: 65vw;
   margin: auto;
-  margin-top: 30px;
-  border: 5 px solid lightgray;
+  margin-bottom: 40px;
+  border: 10px solid white;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
@@ -151,13 +154,12 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100vw; }
-
-p {
-  font-size: 20px; }
+  width: 70vw; }
 
 .store {
-  color: black; }
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
 
 /*# sourceMappingURL=style.css.map*/

@@ -1,8 +1,8 @@
 body {
   margin: 0;
   background: url("../../images/background.jpg") no-repeat;
-  background-size: cover;
   display: block;
+  background-size: cover;
 }
 
 h2 {
@@ -11,7 +11,7 @@ h2 {
   justify-items: center;
   margin: 40px;
   font-size: 60px;
-  background: $rosegold;
+  background: $rosegoldgrad;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: $shadow;
@@ -30,7 +30,7 @@ h2 {
   justify-content: center;
   max-width: 65vw;
   margin: auto;
-  margin-top: 30px;
-  border: 5 px solid lightgray;
+  margin-bottom: 40px;
+  border: 10px solid white;
   box-shadow: $shadow;
 }
