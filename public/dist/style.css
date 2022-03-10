@@ -96,7 +96,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 65vw;
+  max-width: 60vw;
   margin: auto;
   margin-bottom: 40px;
   border: 10px solid white;
