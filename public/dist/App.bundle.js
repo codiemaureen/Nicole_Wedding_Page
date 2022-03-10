@@ -2224,15 +2224,15 @@ __webpack_require__.r(__webpack_exports__);
 
 var mapOptions = {
   center: {
-    lat: 43.2,
-    lng: -79.8
+    lat: 42.58,
+    lng: -82.88
   },
   zoom: 10
 };
 
 function loadPlaces(map) {
-  var lat = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 43.2;
-  var lng = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : -79.8;
+  var lat = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 42.58;
+  var lng = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : -82.88;
 }
 
 ;
