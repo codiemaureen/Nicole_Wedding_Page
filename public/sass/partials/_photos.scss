@@ -1,8 +1,7 @@
 .photo_container {
   display: flex;
   margin: 10px;
-  height: 60vh;
-  border: 2px solid lightgray;
+  max-height: 60vh;
   box-shadow: $shadow;
 }
 img {
