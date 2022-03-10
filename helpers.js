@@ -11,7 +11,7 @@ exports.staticMap = ([lng, lat]) => `https://maps.googleapis.com/maps/api/static
 exports.icon = (name) => fs.readFileSync(`./public/images/icons/${name}.svg`);
 
 
-exports.siteName = `💍`;
+exports.siteName = `Nicole + Jason`;
 
 exports.menu = [
   { slug: '/wedding', title: 'Wedding', icon: 'folder', },

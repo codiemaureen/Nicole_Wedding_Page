@@ -1,5 +1,5 @@
-$lightshadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.05);
-$shadow: 0 0 20px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4);
+$lightshadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 5px 10px hsla(0, 0%, 0%, 0.15);
+$shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4);
 $rosegoldgrad: -webkit-linear-gradient(
   left bottom,
   hsla(10, 33%, 57%, 1) 40%,
