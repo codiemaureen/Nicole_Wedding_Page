@@ -2221,6 +2221,8 @@ NodeList.prototype.on = NodeList.prototype.addEventListener = function (name, fn
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _bling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bling */ "./public/javascripts/modules/bling.js");
+
 
 var mapOptions = {
   center: {
@@ -2233,6 +2235,8 @@ var mapOptions = {
 function loadPlaces(map) {
   var lat = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 42.58;
   var lng = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : -82.88;
+  var places = (0,_bling__WEBPACK_IMPORTED_MODULE_1__.$)('.place');
+  console.log(places.textContent);
 }
 
 ;
@@ -2240,6 +2244,9 @@ function loadPlaces(map) {
 function makeMap(mapDiv) {
   if (!mapDiv) return;
   var map = new google.maps.Map(mapDiv, mapOptions);
+  loadPlaces(map);
+  var input = (0,_bling__WEBPACK_IMPORTED_MODULE_1__.$)('[name="geolocate"]');
+  var autocomplete = new google.maps.places.Autocomplete(input);
 }
 
 ;
