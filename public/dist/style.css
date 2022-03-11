@@ -11,7 +11,10 @@
   text-align: center;
   margin: 0;
   background: black;
-  height: 20vh; }
+  height: 15vh; }
+
+.title {
+  letter-spacing: 5px; }
 
 .nav_bar {
   display: -webkit-box;
@@ -43,9 +46,8 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
-  padding: 10px;
-  width: 30px; }
+  margin: auto;
+  width: 20px; }
 
 svg:not(:root) {
   overflow: hidden;
@@ -80,7 +82,7 @@ h2 {
           justify-content: center;
   justify-items: center;
   margin: 40px;
-  font-size: 60px;
+  font-size: 3rem;
   background: -webkit-linear-gradient(left bottom, #b6796d 40%, #d8bab6 50%, #b6796d 66%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -100,7 +102,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 65vw;
+  max-width: 50vw;
   margin: auto;
   margin-bottom: 30px;
   border: 10px solid white;
